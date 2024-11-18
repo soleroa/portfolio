@@ -1,7 +1,25 @@
-/* --------------------------------------- */
-/* ----- Basic Setup ----- */
-/* --------------------------------------- */
-
+.typewriter {
+    font-family: monospace;
+    display: inline-block;
+    border-right: 2px solid white; /* Simula el cursor */
+    white-space: nowrap; /* Mantener todo en una línea */
+    overflow: hidden; /* Ocultar texto que no se haya escrito */
+  }
+  
+  /* Parpadeo del cursor */
+  @keyframes blink {
+    from {
+      border-right-color: white;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+  
+  .typewriter {
+    animation: blink 0.7s step-end infinite; /* Cursor titilando */
+  }
+  
 @font-face {
     font-family: 'Hk Grotesk';
     font-style: normal;
@@ -15,6 +33,49 @@
     font-weight: 400;
     src: url('./fonts/Jost-Regular.ttf') format('woff');
 }
+
+.resume-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .resume-btn {
+    background-color: #E63946; /* Color del botón */
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .resume-options {
+    display: none; /* Ocultar opciones por defecto */
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 5px;
+    z-index: 1;
+  }
+  
+  .resume-options a {
+    color: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .resume-options a:hover {
+    background-color: #f1f1f1; /* Cambia el color al pasar el mouse */
+  }
+  
+  .resume-dropdown:hover .resume-options {
+    display: block; /* Mostrar opciones al pasar el mouse sobre el contenedor */
+  }
+  
 
 * {
     margin: 0;
