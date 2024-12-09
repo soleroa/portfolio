@@ -1,9 +1,9 @@
 .typewriter {
     font-family: monospace;
     display: inline-block;
-    border-right: 2px solid white; /* Simula el cursor */
-    white-space: nowrap; /* Mantener todo en una línea */
-    overflow: hidden; /* Ocultar texto que no se haya escrito */
+    border-right: 2px solid white; 
+    white-space: nowrap;
+    overflow: hidden; 
   }
   
   /* Parpadeo del cursor */
@@ -17,7 +17,7 @@
   }
   
   .typewriter {
-    animation: blink 0.7s step-end infinite; /* Cursor titilando */
+    animation: blink 0.7s step-end infinite; 
   }
   
 @font-face {
@@ -35,47 +35,47 @@
 }
 
 .resume-dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .resume-btn {
-    background-color: #E63946; /* Color del botón */
-    color: white;
-    padding: 10px 15px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .resume-options {
-    display: none; /* Ocultar opciones por defecto */
-    position: absolute;
-    background-color: white;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    margin-top: 5px;
-    z-index: 1;
-  }
-  
-  .resume-options a {
-    color: #000;
-    padding: 10px 15px;
-    text-decoration: none;
-    display: block;
-    font-size: 14px;
-    border-radius: 5px;
-  }
-  
-  .resume-options a:hover {
-    background-color: #f1f1f1; /* Cambia el color al pasar el mouse */
-  }
-  
-  .resume-dropdown:hover .resume-options {
-    display: block; /* Mostrar opciones al pasar el mouse sobre el contenedor */
-  }
-  
+  position: relative;
+  display: inline-block;
+}
+
+.resume-btn {
+  background-color: #E63946; /* Color del botón */
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.resume-options {
+  display: none; /* Ocultar opciones por defecto */
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-top: 5px;
+  z-index: 1;
+}
+
+.resume-options a {
+  color: #000;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.resume-options a:hover {
+  background-color: #f1f1f1; /* Cambia el color al pasar el mouse */
+}
+
+.resume-dropdown:hover .resume-options {
+  display: block; /* Mostrar opciones al pasar el mouse sobre el contenedor */
+}
+
 
 * {
     margin: 0;
@@ -552,6 +552,9 @@ body:not(.user-is-tabbing) a:focus {
 .work__image-box {
     margin-bottom: var(--gutter-normal);
 }
+.work__image{
+    border-radius: 10px;
+}
 
 @media(min-width: 901px) {
     .work__image-box {
@@ -595,6 +598,14 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 /* ----- About ----- */
 /* --------------------------------------- */
+.about_title{
+    margin-top: -100px; 
+}
+.about__text {
+    flex: 0 0 35%;
+    margin-top: -150px; /* Ajusta el valor según la distancia deseada */
+}
+
 
 .about__content {
     display: flex;
@@ -610,7 +621,15 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .about__photo-container {
+    text-align: center;
     margin-bottom: var(--gutter-normal);
+}
+
+.about__photo{
+    width: 100%; /* Reduce el ancho de la foto al 80% del contenedor */
+    max-width: 350px; /* Define un tamaño máximo opcional */
+    height: auto; /* Mantén la proporción de la imagen */
+    border-radius: 7px;
 }
 
 @media(min-width: 901px) {
