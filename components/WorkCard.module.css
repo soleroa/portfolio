@@ -1,0 +1,126 @@
+.card {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: clamp(3rem, 6vw, 6rem);
+  align-items: center;
+}
+
+.media img {
+  border-radius: 4px;
+  width: 100%;
+}
+
+.body {
+  min-width: 0;
+}
+
+.mediaType {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 4 / 3;
+  background: var(--bg-alt);
+  border: 1px dashed var(--line);
+  border-radius: 4px;
+}
+
+.mediaType span {
+  font-family: var(--serif);
+  font-size: 9rem;
+  color: var(--accent-soft);
+}
+
+.titleRow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.titleRow h3 {
+  margin-bottom: 0;
+}
+
+.chip {
+  font-family: var(--sans);
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: .4rem 1rem;
+  border-radius: 20px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .8rem;
+  list-style: none;
+  margin: 1.8rem 0 2.4rem;
+}
+
+.tags li {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: .4rem 1.2rem;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.linkArrow {
+  display: inline-flex;
+  align-items: center;
+  gap: .6rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-bottom: .3rem;
+  border-bottom: 1px solid var(--ink);
+  transition: color .2s ease, border-color .2s ease;
+}
+
+.linkArrow:hover,
+.linkArrow:focus-visible {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.linkArrow .arrow {
+  transition: transform .2s ease;
+}
+
+.linkArrow:hover .arrow {
+  transform: translateX(3px);
+}
+
+.iconLink {
+  display: inline-flex;
+  color: var(--ink-soft);
+  transition: color .2s ease;
+}
+
+.iconLink:hover,
+.iconLink:focus-visible {
+  color: var(--accent);
+}
+
+@media (max-width: 860px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+
+  .mediaType {
+    order: -1;
+    max-width: 220px;
+    aspect-ratio: 1;
+  }
+}

@@ -1,0 +1,47 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 2.4rem;
+}
+
+.btn {
+  font-family: var(--sans);
+  font-size: 1.5rem;
+  font-weight: 600;
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  border-radius: 2px;
+  padding: 1.2rem 2.6rem;
+  cursor: pointer;
+  transition: background .2s ease, color .2s ease, border-color .2s ease;
+}
+
+.btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.options {
+  position: absolute;
+  top: calc(100% + .6rem);
+  left: 0;
+  min-width: 100%;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  box-shadow: 0 8px 24px rgba(32, 28, 24, .08);
+  z-index: 5;
+}
+
+.options a {
+  display: block;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  white-space: nowrap;
+}
+
+.options a:hover {
+  background: var(--bg-alt);
+  color: var(--accent);
+}
