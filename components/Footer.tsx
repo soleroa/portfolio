@@ -1,11 +1,15 @@
+"use client";
+
+import { useReveal } from "@/lib/useReveal";
 import { GitHubIcon, LinkedInIcon, MailIcon } from "./Icons";
 import styles from "./Footer.module.css";
 
 export function Footer() {
   const year = new Date().getFullYear();
+  const { ref, isVisible } = useReveal<HTMLElement>();
 
   return (
-    <footer className={styles.footer}>
+    <footer ref={ref} className={`${styles.footer} reveal ${isVisible ? "isVisible" : ""}`}>
       <div className={`container ${styles.row}`}>
         <p className={styles.copy}>&copy; {year} Soledad Roa</p>
 
