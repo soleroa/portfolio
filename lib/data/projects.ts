@@ -14,18 +14,9 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: "movie-review-classifier",
-    title: "Movie Review Classifier",
-    placeholder: true,
-    tags: ["Python", "PyTorch", "Transformers", "DistilBERT"],
-    links: {
-      repo: "https://github.com/soleroa/movie-review-classifier",
-    },
-  },
-  {
     id: "landcap",
     title: "Landcap",
-    placeholder: true,
+    image: "/images/landcap.png",
     tags: [
       "React",
       "Vite",
@@ -36,5 +27,17 @@ export const projects: Project[] = [
       "Prisma",
       "OpenAI GPT-4.1",
     ],
+    links: {
+      visit: "https://landcap.dev",
+    },
+  },
+  {
+    id: "movie-review-classifier",
+    title: "Movie Review Classifier",
+    placeholder: true,
+    tags: ["Python", "PyTorch", "Transformers", "DistilBERT"],
+    links: {
+      repo: "https://github.com/soleroa/movie-review-classifier",
+    },
   },
 ];

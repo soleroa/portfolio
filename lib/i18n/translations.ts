@@ -34,7 +34,7 @@ export const translations = {
       },
       landcap: {
         chip: "In production",
-        desc: "A self-service platform that uses AI to generate professional websites from photos or an Instagram profile — no code and no manual work required.",
+        desc: "A self-service platform that uses AI to generate professional websites from photos or an Instagram profile — no code and no manual work required. Designed and built the AI generation engine end-to-end — from image/Instagram parsing to automated site generation, fully self-service.",
       },
     },
     contact: {
@@ -78,7 +78,7 @@ export const translations = {
       },
       landcap: {
         chip: "En producción",
-        desc: "Plataforma self-service que genera sitios web profesionales con IA a partir de fotos o Instagram, sin código ni intervención manual.",
+        desc: "Plataforma self-service que genera sitios web profesionales con IA a partir de fotos o Instagram, sin código ni intervención manual. Diseñé y desarrollé el motor de generación con IA de punta a punta — desde el parsing de imágenes/Instagram hasta la generación automática del sitio, todo self-service.",
       },
     },
     contact: {
