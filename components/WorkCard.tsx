@@ -70,11 +70,10 @@ export function WorkCard({ project }: { project: Project }) {
                 href={project.links.repo}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={styles.iconLink}
-                title="View source on GitHub"
-                aria-label="View source on GitHub"
+                className={styles.linkArrow}
               >
                 <GitHubIcon />
+                <span>{t.work.repo}</span>
               </a>
             )}
           </div>

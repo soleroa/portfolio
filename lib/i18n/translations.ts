@@ -27,6 +27,9 @@ export const translations = {
       label: "Work",
       heading: "Selected Work",
       visit: "Visit site",
+      repo: "View repo",
+      projectsLabel: "Projects",
+      freelanceLabel: "Freelance Work",
     },
     projects: {
       "movie-review-classifier": {
@@ -35,6 +38,10 @@ export const translations = {
       landcap: {
         chip: "In production",
         desc: "A self-service platform that uses AI to generate professional websites from photos or an Instagram profile — no code and no manual work required. Designed and built the AI generation engine end-to-end — from image/Instagram parsing to automated site generation, fully self-service.",
+      },
+      riovista: {
+        chip: "Client project",
+        desc: "Institutional website for a real estate agency in Santa Fe, Argentina, with property search and filtering, individual listing pages, and content management. Freelance project for a real client — from proposal to deploy.",
       },
     },
     contact: {
@@ -71,6 +78,9 @@ export const translations = {
       label: "Proyectos",
       heading: "Proyectos Seleccionados",
       visit: "Ver sitio",
+      repo: "Ver repo",
+      projectsLabel: "Proyectos",
+      freelanceLabel: "Trabajo Freelance",
     },
     projects: {
       "movie-review-classifier": {
@@ -79,6 +89,10 @@ export const translations = {
       landcap: {
         chip: "En producción",
         desc: "Plataforma self-service que genera sitios web profesionales con IA a partir de fotos o Instagram, sin código ni intervención manual. Diseñé y desarrollé el motor de generación con IA de punta a punta — desde el parsing de imágenes/Instagram hasta la generación automática del sitio, todo self-service.",
+      },
+      riovista: {
+        chip: "Proyecto para cliente",
+        desc: "Sitio institucional para inmobiliaria en Santa Fe, con búsqueda y filtrado de propiedades, fichas individuales y gestión de contenido. Proyecto freelance para un cliente real — de la propuesta al deploy.",
       },
     },
     contact: {

@@ -3,3 +3,14 @@
   flex-direction: column;
   gap: clamp(3rem, 5vw, 5rem);
 }
+
+.subheading {
+  margin-top: clamp(4rem, 7vw, 7rem);
+  margin-bottom: 2rem;
+  font-family: var(--sans);
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}

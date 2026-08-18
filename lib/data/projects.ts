@@ -41,3 +41,15 @@ export const projects: Project[] = [
     },
   },
 ];
+
+export const freelanceProjects: Project[] = [
+  {
+    id: "riovista",
+    title: "Río Vista Inmobiliaria",
+    image: "/images/riovista.png",
+    tags: ["Next.js", "TypeScript", "TailwindCSS", "Strapi", "PostgreSQL", "Docker"],
+    links: {
+      visit: "https://riovista.com.ar",
+    },
+  },
+];
