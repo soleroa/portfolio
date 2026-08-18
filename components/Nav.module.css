@@ -11,13 +11,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.6rem var(--gutter);
-  gap: 2rem;
+  padding: 1.2rem var(--gutter);
+  gap: 1.6rem;
 }
 
 .mark {
   font-family: var(--serif);
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: 0.04em;
 }
@@ -25,13 +25,13 @@
 .items {
   display: flex;
   list-style: none;
-  gap: clamp(1.6rem, 3vw, 3.2rem);
+  gap: clamp(1.4rem, 2.5vw, 2.4rem);
 }
 
 .link {
   position: relative;
   display: inline-block;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 500;
   padding: .4rem 0;
 }
@@ -61,12 +61,12 @@
 
 .langBtn {
   font-family: var(--sans);
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   background: transparent;
   border: none;
-  padding: .6rem 1.1rem;
+  padding: .5rem 1rem;
   color: var(--ink-soft);
   cursor: pointer;
   transition: background .2s ease, color .2s ease;

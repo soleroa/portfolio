@@ -1,24 +1,23 @@
 export const translations = {
   en: {
     meta: {
-      title: "Soledad Roa — Full-Stack Developer",
+      title: "Soledad Roa — Full-Stack Developer & AI Engineer",
       description:
-        "Portfolio of Soledad Roa — full-stack developer and Systems Engineering student building thoughtful, scalable web applications.",
+        "Portfolio of Soledad Roa — full-stack developer & AI engineer and Systems Engineering student building thoughtful, scalable web applications and intelligent systems.",
     },
     nav: { about: "About", work: "Work", contact: "Contact" },
     hero: {
-      kicker: "Full-stack developer — Argentina",
+      kicker: "Full-Stack Developer & AI Engineer — Argentina",
       tagline:
-        "I build thoughtful, scalable web applications — from front-end interfaces to the systems behind them.",
+        "I build thoughtful, scalable web applications and AI-powered systems — from front-end interfaces to the models behind them.",
       cta: "Get in touch",
     },
     about: {
       label: "About",
       heading: "About Me",
       body: [
-        `I'm Soledad Roa, a full-stack developer and Systems Engineering student with a solid foundation across front-end and back-end technologies. I enjoy building scalable, efficient applications, combining modern frameworks and tools to deliver high-quality solutions.`,
-        `Beyond HTML, CSS, JavaScript, and Angular, I'm actively expanding into machine learning — an area I'm genuinely passionate about.`,
-        `I'm driven by solving complex problems, improving workflows, and contributing to meaningful projects. If you're looking for a versatile, committed developer for your team, let's talk.`,
+        `I'm Soledad Roa, a full-stack developer based in Argentina, currently completing my degree in Systems Engineering. My core stack spans React, NestJS, Java/Spring Boot, and Python/FastAPI — and I'm actively expanding into AI engineering, building agents and LLM-powered applications (most recently, a ReAct-pattern travel planning agent using NestJS and Ollama).`,
+        `I like projects where the front-end, back-end, and — increasingly — the AI layer all have to work together cleanly. Open to full-stack or AI engineering roles, or interesting freelance work.`,
       ],
       resumeBtn: "My Resume",
       resumeEnglish: "English",
@@ -30,12 +29,12 @@ export const translations = {
       visit: "Visit site",
     },
     projects: {
-      "order-summary": {
-        desc: "A front-end challenge focused on semantic HTML, responsive layouts with Flexbox, and accessible UI patterns — built mobile-first with SCSS and bundled with Parcel.",
+      "movie-review-classifier": {
+        desc: "A binary sentiment classifier for movie reviews, fine-tuning a pretrained DistilBERT model on the IMDB dataset to predict positive or negative sentiment.",
       },
       landcap: {
-        chip: "In development — private",
-        desc: "A project currently in development. More details will be shared once it's ready to go public.",
+        chip: "In production",
+        desc: "A self-service platform that uses AI to generate professional websites from photos or an Instagram profile — no code and no manual work required.",
       },
     },
     contact: {
@@ -46,24 +45,23 @@ export const translations = {
   },
   es: {
     meta: {
-      title: "Soledad Roa — Desarrolladora Full-Stack",
+      title: "Soledad Roa — Desarrolladora Full-Stack & AI Engineer",
       description:
-        "Portfolio de Soledad Roa — desarrolladora full-stack y estudiante de Ingeniería en Sistemas, construyendo aplicaciones web prolijas y escalables.",
+        "Portfolio de Soledad Roa — desarrolladora full-stack & AI engineer y estudiante de Ingeniería en Sistemas, construyendo aplicaciones web prolijas y escalables, y sistemas inteligentes.",
     },
     nav: { about: "Sobre mí", work: "Proyectos", contact: "Contacto" },
     hero: {
-      kicker: "Desarrolladora full-stack — Argentina",
+      kicker: "Desarrolladora Full-Stack & AI Engineer — Argentina",
       tagline:
-        "Construyo aplicaciones web prolijas y escalables — desde interfaces de front-end hasta los sistemas que las sostienen.",
+        "Construyo aplicaciones web prolijas y escalables, y sistemas potenciados por IA — desde interfaces de front-end hasta los modelos que las sostienen.",
       cta: "Contactarme",
     },
     about: {
       label: "Sobre mí",
-      heading: "Sobre mí",
+      heading: "Quién soy",
       body: [
-        `Soy Soledad Roa, desarrolladora full-stack y estudiante de Ingeniería en Sistemas, con una base sólida tanto en front-end como en back-end. Disfruto construir aplicaciones escalables y eficientes, combinando frameworks y herramientas modernas para ofrecer soluciones de calidad.`,
-        `Además de HTML, CSS, JavaScript y Angular, estoy ampliando mis conocimientos en machine learning, un área que me apasiona.`,
-        `Me motiva resolver problemas complejos, optimizar procesos y aportar a proyectos con sentido. Si buscás una desarrolladora versátil y comprometida para tu equipo, hablemos.`,
+        `Soy Soledad Roa, desarrolladora full-stack radicada en Argentina, cursando actualmente la carrera de Ingeniería en Sistemas. Mi stack principal incluye React, NestJS, Java/Spring Boot y Python/FastAPI — y estoy ampliando activamente mi perfil hacia AI engineering, construyendo agentes y aplicaciones potenciadas por LLMs (el más reciente, un agente de planificación de viajes con patrón ReAct usando NestJS y Ollama).`,
+        `Me gustan los proyectos donde el front-end, el back-end y, cada vez más, la capa de IA tienen que funcionar en conjunto de forma prolija. Abierta a roles full-stack o de AI engineering, o a freelance interesante.`,
       ],
       resumeBtn: "Mi CV",
       resumeEnglish: "Inglés",
@@ -75,12 +73,12 @@ export const translations = {
       visit: "Ver sitio",
     },
     projects: {
-      "order-summary": {
-        desc: "Un desafío de front-end enfocado en HTML semántico, layouts responsive con Flexbox y patrones de UI accesibles — construido mobile-first con SCSS y empaquetado con Parcel.",
+      "movie-review-classifier": {
+        desc: "Un clasificador de sentimiento binario para reseñas de películas, que ajusta un modelo DistilBERT preentrenado sobre el dataset de IMDB para predecir sentimiento positivo o negativo.",
       },
       landcap: {
-        chip: "En desarrollo — privado",
-        desc: "Un proyecto actualmente en desarrollo. Voy a compartir más detalles cuando esté listo para hacerse público.",
+        chip: "En producción",
+        desc: "Plataforma self-service que genera sitios web profesionales con IA a partir de fotos o Instagram, sin código ni intervención manual.",
       },
     },
     contact: {

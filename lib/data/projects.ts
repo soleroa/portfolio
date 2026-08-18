@@ -14,18 +14,27 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: "order-summary",
-    title: "Order Summary Component",
-    image: "/images/ordersummary.png",
-    tags: ["HTML", "SCSS", "JavaScript", "Parcel"],
+    id: "movie-review-classifier",
+    title: "Movie Review Classifier",
+    placeholder: true,
+    tags: ["Python", "PyTorch", "Transformers", "DistilBERT"],
     links: {
-      visit: "https://order-summary-component-main-blue.vercel.app/",
-      repo: "https://github.com/soleroa/order-summary-component-main",
+      repo: "https://github.com/soleroa/movie-review-classifier",
     },
   },
   {
     id: "landcap",
     title: "Landcap",
     placeholder: true,
+    tags: [
+      "React",
+      "Vite",
+      "TypeScript",
+      "TailwindCSS",
+      "NestJS",
+      "PostgreSQL",
+      "Prisma",
+      "OpenAI GPT-4.1",
+    ],
   },
 ];

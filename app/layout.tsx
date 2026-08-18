@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Fraunces, Inter } from "next/font/google";
+import { Fraunces, Inter, Space_Grotesk } from "next/font/google";
 import { LanguageProvider } from "@/lib/i18n/LanguageContext";
 import { KeyboardFocus } from "@/components/KeyboardFocus";
 import "./globals.css";
@@ -16,13 +16,19 @@ const inter = Inter({
   weight: ["400", "500", "600"],
 });
 
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-space-grotesk",
+});
+
 export const metadata: Metadata = {
-  title: "Soledad Roa — Full-Stack Developer",
+  title: "Soledad Roa — Full-Stack Developer & AI Engineer",
   description:
-    "Portfolio of Soledad Roa — full-stack developer and Systems Engineering student building thoughtful, scalable web applications.",
+    "Portfolio of Soledad Roa — full-stack developer & AI engineer and Systems Engineering student building thoughtful, scalable web applications and intelligent systems.",
   keywords: [
     "Soledad Roa",
     "full-stack developer",
+    "AI engineer",
     "front-end",
     "back-end",
     "JavaScript",
@@ -38,7 +44,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${fraunces.variable} ${inter.variable}`}>
+    <html lang="en" className={`${fraunces.variable} ${inter.variable} ${spaceGrotesk.variable}`}>
       <body>
         <LanguageProvider>
           <KeyboardFocus />
