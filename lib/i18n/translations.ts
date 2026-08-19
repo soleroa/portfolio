@@ -16,7 +16,7 @@ export const translations = {
       label: "About",
       heading: "About Me",
       body: [
-        `I'm Soledad Roa, a full-stack developer based in Argentina, currently completing my degree in Systems Engineering. My core stack spans React, NestJS, Java/Spring Boot, and Python/FastAPI — and I'm actively expanding into AI engineering, building agents and LLM-powered applications (most recently, a ReAct-pattern travel planning agent using NestJS and Ollama).`,
+        `I'm Soledad Roa, a full-stack developer based in Argentina, currently completing my degree in Systems Engineering. My core stack spans React, NestJS, Java/Spring Boot, and Python/FastAPI — and I'm actively expanding into AI engineering, building agents and LLM-powered applications.`,
         `I like projects where the front-end, back-end, and — increasingly — the AI layer all have to work together cleanly. Open to full-stack or AI engineering roles, or interesting freelance work.`,
       ],
       resumeBtn: "My Resume",
@@ -67,7 +67,7 @@ export const translations = {
       label: "Sobre mí",
       heading: "Quién soy",
       body: [
-        `Soy Soledad Roa, desarrolladora full-stack radicada en Argentina, cursando actualmente la carrera de Ingeniería en Sistemas. Mi stack principal incluye React, NestJS, Java/Spring Boot y Python/FastAPI — y estoy ampliando activamente mi perfil hacia AI engineering, construyendo agentes y aplicaciones potenciadas por LLMs (el más reciente, un agente de planificación de viajes con patrón ReAct usando NestJS y Ollama).`,
+        `Soy Soledad Roa, desarrolladora full-stack radicada en Argentina, cursando actualmente la carrera de Ingeniería en Sistemas. Mi stack principal incluye React, NestJS, Java/Spring Boot y Python/FastAPI — y estoy ampliando activamente mi perfil hacia AI engineering, construyendo agentes y aplicaciones potenciadas por LLMs.`,
         `Me gustan los proyectos donde el front-end, el back-end y, cada vez más, la capa de IA tienen que funcionar en conjunto de forma prolija. Abierta a roles full-stack o de AI engineering, o a freelance interesante.`,
       ],
       resumeBtn: "Mi CV",
