@@ -5,8 +5,8 @@ import { useLanguage } from "@/lib/i18n/LanguageContext";
 import styles from "./ResumeDropdown.module.css";
 
 const RESUME_LINKS = {
-  english: "https://drive.google.com/file/d/1h7KR-HdNBR3lF0k7brDs-rFa1zgLcE8t/view?usp=sharing",
-  spanish: "https://drive.google.com/file/d/1QC9VC8tcvpPQ6U4zlU38PbGlPEih1ZQK/view?usp=sharing",
+  english: "https://docs.google.com/document/d/1dphtK3IzYobIn0FQqylSBg4reekmsXhYZmXuwrapGsc/edit?usp=sharing",
+  spanish: "https://docs.google.com/document/d/1Yo_Al0uWiFJAgw58cvujJgyFG9buq0ZDL8hTRB0uAGU/edit?usp=sharing",
 };
 
 export function ResumeDropdown() {
