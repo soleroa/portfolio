@@ -14,6 +14,15 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: "cinematch",
+    title: "CineMatch",
+    placeholder: true,
+    tags: ["Python", "FastAPI", "React", "Groq", "ReAct", "Hugging Face"],
+    links: {
+      repo: "https://github.com/soleroa/CineMatch",
+    },
+  },
+  {
     id: "landcap",
     title: "Landcap",
     image: "/images/landcap.png",

@@ -32,6 +32,9 @@ export const translations = {
       freelanceLabel: "Freelance Work",
     },
     projects: {
+      cinematch: {
+        desc: "A conversational movie recommendation agent built on a ReAct architecture with tool calling and a custom sentiment analysis model, fine-tuned and published on Hugging Face. FastAPI backend orchestrating Groq, React frontend with a live view of the agent's reasoning.",
+      },
       "movie-review-classifier": {
         desc: "A binary sentiment classifier for movie reviews, fine-tuning a pretrained DistilBERT model on the IMDB dataset to predict positive or negative sentiment.",
       },
@@ -83,6 +86,9 @@ export const translations = {
       freelanceLabel: "Trabajo Freelance",
     },
     projects: {
+      cinematch: {
+        desc: "Agente conversacional de recomendación de películas con arquitectura ReAct, tool calling y un modelo de sentiment analysis propio, fine-tuned y publicado en Hugging Face. Backend en FastAPI orquestando Groq, frontend en React con visualización en vivo del razonamiento del agente.",
+      },
       "movie-review-classifier": {
         desc: "Un clasificador de sentimiento binario para reseñas de películas, que ajusta un modelo DistilBERT preentrenado sobre el dataset de IMDB para predecir sentimiento positivo o negativo.",
       },
